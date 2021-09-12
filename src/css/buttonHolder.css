@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+  :root {
+    --club-blue: #0072bb;
+    --club-gold: #9c2646;
+    --club-font: 'Roboto', sans-serif;
+    --button-height: unset;
+    --box-shadow: unset;
+    --border: unset;
+    --input-border: unset; 
+    --input-padding: unset;
+    --gradient-blaze: unset;
+  }
+  .button-holder {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+	  /*grid-template-columns: 200px 200px 200px;*/
+	  /*grid-template-rows: 100px 100px 100px 100px 100px 100px;*/
+	  grid-gap: 1px;
+	  background-color: #fff;
+	  color: var(--club-blue);
+    width:100%;
+  }
+  .float-left { position: float-left;}
+  .float-right { position: float-right;}
+  .available {
+    /* display: inline; */
+    background-color: #47b947;
+    color: white;
+    /*width:300px;*/
+  }
+  .unavailable {
+    /* display: inline; */
+    background-color: #f34949;
+    color: white;
+    /*width:300px;*/
+  }
+  .maybe {
+    /* display: inline; */
+    background-color: #efa92a;
+    color: white;
+    /*width:300px;*/
+  }
+  .availnotset {
+    /* display: inline; */
+    background-color: grey;
+    color: white;
+    /*width:300px;*/
+  }
+  table {
+    border-collapse: collapse;
+   }
+  tr, td {
+    border: 1px solid black;
+  }
+  tr:last-child {
+    border-bottom: none;
+   }
+  td:first-child, th:first-child {
+    border-left: none;
+   }
