@@ -116,7 +116,7 @@ export default {
     "WS" : {
       "clubName": "Western Suburbs CC",
       "clubShortName": "WSCC",
-      "clubLogoURL": "https://cncctigers.s3-ap-southeast-2.amazonaws.com/clublogos/transparent/tba.png",
+      "clubLogoURL": "https://cncctigers.s3-ap-southeast-2.amazonaws.com/clublogos/transparent/wscc-logo.png",
       "clubHomeGround": "College Park"
     }
   }

@@ -231,7 +231,7 @@ function CompRoundsDay(props) {
           clubName={compRounds[season][activeComp][props.rndID].opposition} 
           clubLogoURL={clubs[compRounds[season][activeComp][props.rndID].opposition].clubLogoURL} 
         />
-        <div>{compRounds[season][activeComp][props.rndID].time}</div>
+        <div>{clientSettings.sport === 'cricket' ? Object.keys(compRounds[season][activeComp][props.rndID].days).length === 1 ? compRounds[season][activeComp][props.rndID].type === 'final' ? compRounds[season][activeComp][props.rndID].time : compRounds[season][activeComp][props.rndID].time: compRounds[season][activeComp][props.rndID].time.replace(/ AM/g, '') : compRounds[season][activeComp][props.rndID].time}</div>
         <div style={{fontWeight:"Bold"}}>
           {clientSettings.sport === 'football' ? getMatchGround() : compRounds[season][activeComp][props.rndID].homeAwayInfo}
           </div>

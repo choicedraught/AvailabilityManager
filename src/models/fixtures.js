@@ -2,14 +2,7 @@ export default {
   "2021": {
     "pre-season": {
         "round_1": {
-          "days": { "day_1" : "18/9/2021" },
-          "time": "12:00 PM",
-          "type" : "fixture",
-          "opposition" : "SP",
-          "homeAwayInfo" : "A:Bye:Bye:Bye"
-      },
-        "round_2": {
-            "days": { "day_1" : "28/9/2021" },
+            "days": { "day_1" : "26/9/2021" },
             "time": "12:00 PM",
             "type" : "fixture",
             "opposition" : "WS",
@@ -23,7 +16,7 @@ export default {
          },
         "homeAwayInfo" : "H:A:H:A",
          "opposition" : "UN",
-         "time" : "10.30 AM",
+         "time" : "10.30 / 11.40 AM",
          "type" : "fixture"
       },
       "round_2" : {
@@ -32,7 +25,7 @@ export default {
         },
        "homeAwayInfo" : "A:H:A:H",
         "opposition" : "MG",
-        "time" : "10.30 AM",
+        "time" : "10.30 / 11.40 AM",
         "type" : "fixture"
      },
      "round_3" : {
@@ -41,7 +34,7 @@ export default {
         },
         "homeAwayInfo" : "H:A:H:A",
         "opposition" : "ML",
-        "time" : "10.30 AM",
+        "time" : "10.30 / 11.40 AM",
         "type" : "fixture"
       },
       "round_4" : {
@@ -50,7 +43,7 @@ export default {
         },
        "homeAwayInfo" : "A:H:A:H",
         "opposition" : "GO",
-        "time" : "10.30 AM",
+        "time" : "10.30 / 11.40 AM",
         "type" : "fixture"
      },
      "round_5" : {
@@ -60,7 +53,7 @@ export default {
       },
      "homeAwayInfo" : "A:H:A:H",
       "opposition" : "PE",
-      "time" : "11.40 AM",
+      "time" : "11.40 / 12.40 AM",
       "type" : "fixture"
    },
    "round_6" : {
@@ -70,7 +63,7 @@ export default {
       },
      "homeAwayInfo" : "H:A:H:A",
       "opposition" : "RM",
-      "time" : "11.40 AM",
+      "time" : "11.40 / 12.40 AM",
       "type" : "fixture"
    },
    "round_7" : {
@@ -80,7 +73,7 @@ export default {
       },
      "homeAwayInfo" : "H:A:H:A",
       "opposition" : "SF",
-      "time" : "11.40 AM",
+      "time" : "11.40 / 12.40 AM",
       "type" : "fixture"
    },
    "round_8" : {
@@ -90,7 +83,7 @@ export default {
       },
      "homeAwayInfo" : "A:H:A:H",
       "opposition" : "FR",
-      "time" : "11.40 AM",
+      "time" : "11.40 / 12.40 AM",
       "type" : "fixture"
    },
    "round_9" : {
@@ -99,16 +92,16 @@ export default {
       },
      "homeAwayInfo" : "H:A:H:A",
       "opposition" : "SC",
-      "time" : "11.00 AM",
+      "time" : "11.00 / 12.10 AM",
       "type" : "fixture"
    },
       "round_10" : {
          "days" : {
             "day_1" : "8/1/2022"
          },
-        "homeAwayInfo" : "A:H:A:H",
+        "homeAwayInfo" : "A:H:BYE:BYE",
          "opposition" : "SP",
-         "time" : "11.00 AM",
+         "time" : "11.00 / 12.10 AM",
          "type" : "fixture"
       },
       "round_11" : {
@@ -117,7 +110,7 @@ export default {
          },
         "homeAwayInfo" : "H:A:H:A",
          "opposition" : "BM",
-         "time" : "11.00 AM",
+         "time" : "11.00 / 12.10 AM",
          "type" : "fixture"
       },
       "round_12" : {
@@ -127,7 +120,7 @@ export default {
          },
         "homeAwayInfo" : "A:H:A:H",
          "opposition" : "WA",
-         "time" : "11.40 AM",
+         "time" : "11.40 / 12.40 AM",
          "type" : "fixture"
       },
       "round_13" : {
@@ -137,7 +130,7 @@ export default {
          },
         "homeAwayInfo" : "A:H:A:H",
          "opposition" : "ME",
-         "time" : "11.40 AM",
+         "time" : "11.40 / 12.40 AM",
          "type" : "fixture"
       },
       "round_14" : {
@@ -147,7 +140,7 @@ export default {
          },
         "homeAwayInfo" : "H:A:H:A",
          "opposition" : "JO",
-         "time" : "11.40 AM",
+         "time" : "11.40 / 12.40 AM",
          "type" : "fixture"
       },
       "round_15" : {
@@ -156,7 +149,7 @@ export default {
          },
         "homeAwayInfo" : "A:H:A:H",
          "opposition" : "WI",
-         "time" : "11.00 AM",
+         "time" : "11.00 / 12.10 AM",
          "type" : "fixture"
       },
       "EF" : {
