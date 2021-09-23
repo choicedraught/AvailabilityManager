@@ -1,0 +1,14 @@
+.comp-dropdown {
+    font-size: 10px;
+    font-weight: bold;
+}
+.round-dropdown {
+    font-size: 10px;
+    font-weight: bold;
+}
+.season-dropdown {
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+    color:black;
+}

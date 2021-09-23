@@ -1,6 +1,7 @@
 const dev = {
     s3: {
-      BUCKET: "cnccdev"
+      BUCKET: "cnccdev",
+      REGION:"ap-southeast-2"
     },
     apiGateway: {
       REGION: "ap-southeast-2",
@@ -20,7 +21,8 @@ const dev = {
   
   const prod = {
     s3: {
-      BUCKET: "cnccprod"
+      BUCKET: "cnccprod",
+      REGION:"ap-southeast-2"
     },
     apiGateway: {
       REGION: "ap-southeast-2",

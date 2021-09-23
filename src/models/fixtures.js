@@ -1,5 +1,5 @@
 export default {
-  "2021": {
+  "2122": {
     "pre-season": {
         "round_1": {
             "days": { "day_1" : "26/9/2021" },
@@ -183,55 +183,55 @@ export default {
         "type" : "final"
     }
    },
-   "u1314": {
+   "u13": {
       "round_1": {
         "days": { "day_1" : "24/10/2021" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "WI",
-        "homeAwayInfo" : "13's H: 14's H"
+        "homeAwayInfo" : "Home"
       },
       "round_2": {
         "days": { "day_1" : "7/11/2021" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "ME",
-        "homeAwayInfo" : "13's A: 14's A"
+        "homeAwayInfo" : "Away"
       },
       "round_3": {
         "days": { "day_1" : "28/11/2021" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "GO",
-        "homeAwayInfo" : "13's H: 14's H"
+        "homeAwayInfo" : "Home"
       },
       "round_4": {
         "days": { "day_1" : "12/12/2021" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "PE",
-        "homeAwayInfo" : "13's A: 14's A"
+        "homeAwayInfo" : "Away"
       },
       "round_5": {
         "days": { "day_1" : "23/1/2022" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "FR",
-        "homeAwayInfo" : "13's A: 14's A"
+        "homeAwayInfo" : "Away"
       },
       "round_6": {
         "days": { "day_1" : "6/2/2022" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "SP",
-        "homeAwayInfo" : "13's H: 14's H"
+        "homeAwayInfo" : "Home"
       },
       "round_7": {
         "days": { "day_1" : "20/2/2022" },
         "time": "1:00 PM",
         "type" : "fixture",
         "opposition" : "SP",
-        "homeAwayInfo" : "13's H: 14's H"
+        "homeAwayInfo" : "Home"
       },
       "SF": {
         "days": { "day_1" : "27/2/2022" },
@@ -248,118 +248,183 @@ export default {
         "homeAwayInfo" : "TBA"
       }
    },
-   "u1517": {
+   "u14": {
+    "round_1": {
+      "days": { "day_1" : "24/10/2021" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "WI",
+      "homeAwayInfo" : "Home"
+    },
+    "round_2": {
+      "days": { "day_1" : "7/11/2021" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "ME",
+      "homeAwayInfo" : "Away"
+    },
+    "round_3": {
+      "days": { "day_1" : "28/11/2021" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "GO",
+      "homeAwayInfo" : "Home"
+    },
+    "round_4": {
+      "days": { "day_1" : "12/12/2021" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "PE",
+      "homeAwayInfo" : "Away"
+    },
+    "round_5": {
+      "days": { "day_1" : "23/1/2022" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "FR",
+      "homeAwayInfo" : "Away"
+    },
+    "round_6": {
+      "days": { "day_1" : "6/2/2022" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "SP",
+      "homeAwayInfo" : "Home"
+    },
+    "round_7": {
+      "days": { "day_1" : "20/2/2022" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "SP",
+      "homeAwayInfo" : "Home"
+    },
+    "SF": {
+      "days": { "day_1" : "27/2/2022" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "TBA",
+      "homeAwayInfo" : "TBA"
+    },
+    "GF": {
+      "days": { "day_1" : "13/3/2022" },
+      "time": "1:00 PM",
+      "type" : "fixture",
+      "opposition" : "TBA",
+      "homeAwayInfo" : "TBA"
+    }
+  },
+   "u15": {
       "round_1": {
         "days": { "day_1" : "2/10/2022", "day_2" : "9/10/2022"},
         "time": "8:00 AM",
         "type" : "fixture",
         "opposition" : "JC",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_2": {
         "days": { "day_1" : "16/10/2022", "day_2" : "23/10/2022"},
         "time": "8:00 AM",
         "type" : "fixture",
         "opposition" : "ML",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_3": {
         "days": { "day_1" : "30/10/2022"},
         "time": "8:00 AM",
         "type" : "fixture",
         "opposition" : "PE",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_4": {
         "days": { "day_1" : "6/11/2022", "day_2" : "13/11/2022"},
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "RM",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_5": {
         "days": { "day_1" : "20/11/2022", "day_2" : "27/11/2022"},
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "SF",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_6": {
         "days": { "day_1" : "4/12/2022", "day_2" : "11/12/2022"},
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "FR",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_7": {
         "days": { "day_1" : "18/12/2022"},
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "SC",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_8": {
         "days": { "day_1" : "8/1/2022"},
         "time": "9:30 AM",
         "type" : "fixture",
         "opposition" : "SP",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_9": {
         "days": { "day_1" : "8/1/2022"},
         "time": "1:30 PM",
         "type" : "fixture",
         "opposition" : "SP",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_10": {
         "days": { "day_1" : "9/1/2022"},
         "time": "9:30 AM",
         "type" : "fixture",
         "opposition" : "MG",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_11": {
         "days": { "day_1" : "9/1/2022"},
         "time": "1:30 PM",
         "type" : "fixture",
         "opposition" : "GO",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_12": {
         "days": { "day_1" : "15/1/2022"},
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "BM",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_13": {
         "days": { "day_1" : "22/1/2022", "day_2": "29/1/2022" },
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "BM",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_14": {
         "days": { "day_1" : "5/2/2022", "day_2": "12/2/2022" },
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "ME",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "round_15": {
         "days": { "day_1" : "19/2/2022", "day_2": "26/2/2022" },
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "JO",
-        "homeAwayInfo" : "15's A 17's H"
+        "homeAwayInfo" : "Home"
       },
       "round_16": {
         "days": { "day_1" : "5/3/2022" },
         "time": "8:30 AM",
         "type" : "fixture",
         "opposition" : "WI",
-        "homeAwayInfo" : "15's H 17's A"
+        "homeAwayInfo" : "Away"
       },
       "EF": {
         "days": { "day_1" : "12/3/2022" },
@@ -383,6 +448,141 @@ export default {
         "homeAwayInfo" : "TBA"
       }
    },
+   "u17": {
+    "round_1": {
+      "days": { "day_1" : "2/10/2022", "day_2" : "9/10/2022"},
+      "time": "8:00 AM",
+      "type" : "fixture",
+      "opposition" : "JC",
+      "homeAwayInfo" : "Home"
+    },
+    "round_2": {
+      "days": { "day_1" : "16/10/2022", "day_2" : "23/10/2022"},
+      "time": "8:00 AM",
+      "type" : "fixture",
+      "opposition" : "ML",
+      "homeAwayInfo" : "Home"
+    },
+    "round_3": {
+      "days": { "day_1" : "30/10/2022"},
+      "time": "8:00 AM",
+      "type" : "fixture",
+      "opposition" : "PE",
+      "homeAwayInfo" : "Away"
+    },
+    "round_4": {
+      "days": { "day_1" : "6/11/2022", "day_2" : "13/11/2022"},
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "RM",
+      "homeAwayInfo" : "Home"
+    },
+    "round_5": {
+      "days": { "day_1" : "20/11/2022", "day_2" : "27/11/2022"},
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "SF",
+      "homeAwayInfo" : "Home"
+    },
+    "round_6": {
+      "days": { "day_1" : "4/12/2022", "day_2" : "11/12/2022"},
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "FR",
+      "homeAwayInfo" : "Away"
+    },
+    "round_7": {
+      "days": { "day_1" : "18/12/2022"},
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "SC",
+      "homeAwayInfo" : "Home"
+    },
+    "round_8": {
+      "days": { "day_1" : "8/1/2022"},
+      "time": "9:30 AM",
+      "type" : "fixture",
+      "opposition" : "SP",
+      "homeAwayInfo" : "Away"
+    },
+    "round_9": {
+      "days": { "day_1" : "8/1/2022"},
+      "time": "1:30 PM",
+      "type" : "fixture",
+      "opposition" : "SP",
+      "homeAwayInfo" : "Away"
+    },
+    "round_10": {
+      "days": { "day_1" : "9/1/2022"},
+      "time": "9:30 AM",
+      "type" : "fixture",
+      "opposition" : "MG",
+      "homeAwayInfo" : "Away"
+    },
+    "round_11": {
+      "days": { "day_1" : "9/1/2022"},
+      "time": "1:30 PM",
+      "type" : "fixture",
+      "opposition" : "GO",
+      "homeAwayInfo" : "Away"
+    },
+    "round_12": {
+      "days": { "day_1" : "15/1/2022"},
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "BM",
+      "homeAwayInfo" : "Home"
+    },
+    "round_13": {
+      "days": { "day_1" : "22/1/2022", "day_2": "29/1/2022" },
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "BM",
+      "homeAwayInfo" : "Away"
+    },
+    "round_14": {
+      "days": { "day_1" : "5/2/2022", "day_2": "12/2/2022" },
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "ME",
+      "homeAwayInfo" : "Away"
+    },
+    "round_15": {
+      "days": { "day_1" : "19/2/2022", "day_2": "26/2/2022" },
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "JO",
+      "homeAwayInfo" : "Home"
+    },
+    "round_16": {
+      "days": { "day_1" : "5/3/2022" },
+      "time": "8:30 AM",
+      "type" : "fixture",
+      "opposition" : "WI",
+      "homeAwayInfo" : "Away"
+    },
+    "EF": {
+      "days": { "day_1" : "12/3/2022" },
+      "time": "9:30 AM",
+      "type" : "fixture",
+      "opposition" : "TBA",
+      "homeAwayInfo" : "TBA"
+    },
+    "SF": {
+      "days": { "day_1" : "19/3/2022" },
+      "time": "9:30 AM",
+      "type" : "fixture",
+      "opposition" : "TBA",
+      "homeAwayInfo" : "TBA"
+    },
+    "GF": {
+      "days": { "day_1" : "26/3/2022" },
+      "time": "9:30 AM",
+      "type" : "fixture",
+      "opposition" : "TBA",
+      "homeAwayInfo" : "TBA"
+    }
+  },
    "colts": {
       "round_1": {
         "days": { "day_1" : "21/11/2021" },
@@ -739,7 +939,7 @@ export default {
           "days": { "day_1" : "10/10/2020", "day_2" : "11/10/2020" },
           "type" : "fixture",
           "opposition" : "RM",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_2" :
           {
@@ -748,7 +948,7 @@ export default {
           "days": { "day_1" : "17/10/2020", "day_2" : "24/10/2020" },
           "type" : "fixture",
           "opposition" : "SP",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_3" :
           {
@@ -757,7 +957,7 @@ export default {
           "days": { "day_1" : "31/10/2020", "day_2" : "7/11/2020" },
           "type" : "fixture",
           "opposition" : "SC",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_4" :
           {
@@ -766,7 +966,7 @@ export default {
           "days": { "day_1" : "14/11/2020", "day_2" : "21/11/2020" },
           "type" : "fixture",
           "opposition" : "BM",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_5" :
           {
@@ -775,7 +975,7 @@ export default {
           "days": { "day_1" : "28/11/2020", "day_2" : "5/12/2020" },
           "type" : "fixture",
           "opposition" : "WI",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_6" :
           {
@@ -784,7 +984,7 @@ export default {
           "days": { "day_1" : "12/12/2020", "day_2" : "19/12/2020" },
           "type" : "fixture",
           "opposition" : "JC",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_7" :
           {
@@ -793,7 +993,7 @@ export default {
           "days": { "day_1" : "9/1/2021" },
           "type" : "fixture",
           "opposition" : "WA",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_8" :
           {
@@ -802,7 +1002,7 @@ export default {
           "days": { "day_1" : "16/1/2021" },
           "type" : "fixture",
           "opposition" : "ME",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_9" :
           {
@@ -811,7 +1011,7 @@ export default {
           "days": { "day_1" : "23/1/2021"},
           "type" : "fixture",
           "opposition" : "JO",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_10" :
           {
@@ -820,7 +1020,7 @@ export default {
           "days": { "day_1" : "30/1/2021" },
           "type" : "fixture",
           "opposition" : "MG",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_11" :
           {
@@ -829,7 +1029,7 @@ export default {
           "days": { "day_1" : "6/2/2021", "day_2" : "13/2/2021" },
           "type" : "fixture",
           "opposition" : "ML",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "round_12" :
           {
@@ -838,7 +1038,7 @@ export default {
           "days": { "day_1" : "20/2/2021", "day_2" : "27/2/2021" },
           "type" : "fixture",
           "opposition" : "GO",
-          "homeAwayInfo" : "15's A, 17's H"
+          "homeAwayInfo" : "Away, 17's H"
           },
           "round_13" :
           {
@@ -847,7 +1047,7 @@ export default {
           "days": { "day_1" : "6/3/2021" },
           "type" : "fixture",
           "opposition" : "SF",
-          "homeAwayInfo" : "15's H, 17's A"
+          "homeAwayInfo" : "Home, 17's A"
           },
           "EF" :
           {

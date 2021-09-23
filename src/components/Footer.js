@@ -11,7 +11,7 @@ function Footer() {
       // : 
       // <div><header style={headerStyle}>Claremont Nedlands Cricket Club - Player Manager App</header></div>
       <div key='footer'  style={{alignItems:"center",fontSize:10}}>
-        Copyright 2021, B3 Solutions | <a target="_blank" rel="noreferrer" href="https://cnccmanager.myplayers.club/privacy_policy.html">Privacy Policy</a> 
+        Copyright 2021, B3 Solutions | <a target="_blank" rel="noreferrer" href="https://cncc.myplayers.club/privacy_policy.html">Privacy Policy</a> 
         <br/>
       </div>
   )

@@ -1,6 +1,6 @@
 // import API from '@aws-amplify/api';
 // import Auth from '@aws-amplify/auth';
-import { API, Auth } from 'aws-amplify';
+import { API, Auth, Storage } from 'aws-amplify';
 import { action, thunk } from 'easy-peasy';
 import clubs from './clubs';
 import fixtures from './fixtures'
@@ -14,15 +14,97 @@ export default {
       state.userDetails = userDetails;
     }),
     userAttributes: {},
+    userAttributesIsFetching: {},
+    setUserAttributesIsFetching: action((state,payload)=> {
+      state.userAttributesIsFetching = payload;
+    }),
+    getUserAttributes: thunk( async (actions,payload) => {
+      actions.setUserAttributesIsFetching(true)
+      const info = await Auth.currentAuthenticatedUser()
+      actions.setUserAttributes(info)
+    }),
     setUserAttributes: action((state, payload) => {
       state.userAttributes = payload;
+      state.userAttributesIsFetching = false
     }),
-    activeComp: "pre-season",
-    season: "2021",
+    roleAccess: {
+      senior: ["pre-season","prem","colts","t20"],
+      u13: ["u13"],
+      u14: ["u14"],
+      u15: ["u15"],
+      u17: ["u17"],
+      admin: ["pre-season","prem","colts","t20","u13","u14","u15","u17"]
+    },
+    filterA: true,
+    filterM: true,
+    filterU: true,
+    setFilter: action((state,payload)=>{
+      if (payload === "filterA") {
+        state.filterA = !state.filterA
+      }
+      if (payload === "filterM") {
+        state.filterM = !state.filterM
+      }
+      if (payload === "filterU") {
+        state.filterU = !state.filterU
+      }
+    }),
+    availabilitySorting: "no-sort",
+    setAvailabliltySorting: action((state,payload) => {
+      state.availabilitySorting = payload;
+    }),
+    playersAvailability: {},
+    playersAvailabilityLastModified: "",
+    setPlayersAvailabilityLastModified: action((state,payload)=> {
+      state.playersAvailabilityLastModified = payload
+    }),
+    playersAvailabilityIsFetching:false,
+    setPlayersAvailabilityIsFetching: action((state,payload)=> {
+      state.playersAvailabilityIsFetching = payload;
+    }),
+    getPlayersAvailabilityJSON: thunk( async (actions,payload) => {
+      // Get Players Availability as a pre-written JSON document on S3
+      // I think we only really need the season parameter on this request
+      actions.setPlayersAvailabilityIsFetching(true)
+      const availabilityData = await Storage.get(
+        payload.season + "_" + payload.role + "_PlayersAvailability.json", 
+        {
+          download:  true,
+          contentType: "application/json",
+          cacheControl: "no-cache"
+        }
+      )
+      actions.setPlayersAvailabilityIsFetching(false)
+      console.log("Get Player Availability file success: " + JSON.stringify(availabilityData))
+      actions.setPlayersAvailabilityLastModified(availabilityData.LastModified)
+      const availabilityDataJSON = await availabilityData.Body.text()
+      actions.setPlayersAvailability(JSON.parse(availabilityDataJSON))
+  
+    }),
+    setPlayersAvailability: action((state, payload) => {
+      state.playersAvailability[state.activeSeason] = payload;
+    }),
+    activeComp: "prem",
+    season: "2122",
+    activeSeason: "2122",
+    seasons:[
+      "2020",
+      "2122"
+    ],
+    setActiveSeason: action((state,payload) => {
+      state.activeSeason = payload
+    }),
     prettyDays: {
         "day_1": "Day One",
         "day_2": "Day Two"
     },
+    activeRound: "round_1",
+    setActiveRound: action((state,payload) => {
+      state.activeRound = payload
+    }),
+    setUid: action((state, uid) => {
+      state.uid = uid;
+    }),
     roundNames: {
       "round_1" : { "shortName": "Rnd 1","longName": "Round One"},
       "round_2" : { "shortName": "Rnd 2","longName": "Round Two"},
@@ -51,11 +133,41 @@ export default {
       "SF" : { "shortName": "SF","longName": "Semi Final"},
       "GF" : { "shortName": "GF","longName": "Grand Final"}
     },
+    rounds: {
+      "round_1" : { "roundName": "Round One", "roundShortName": "Rnd 1"},
+      "round_2" : { "roundName": "Round Two", "roundShortName": "Rnd 2"},
+      "round_3" : { "roundName": "Round Three  ", "roundShortName": "Rnd 3"},
+      "round_4" : { "roundName": "Round Four", "roundShortName": "Rnd 4"},
+      "round_5" : { "roundName": "Round Five", "roundShortName": "Rnd 5"},
+      "round_6" : { "roundName": "Round Six", "roundShortName": "Rnd 6"},
+      "round_7" : { "roundName": "Round Seven", "roundShortName": "Rnd 7"},
+      "round_8" : { "roundName": "Round Eight", "roundShortName": "Rnd 8"},
+      "round_9" : { "roundName": "Round Nine", "roundShortName": "Rnd 9"},
+      "round_10" : { "roundName": "Round Ten", "roundShortName": "Rnd 10"},
+      "round_11" : { "roundName": "Round Eleven", "roundShortName": "Rnd 11"},
+      "round_12" : { "roundName": "Round Twelve", "roundShortName": "Rnd 12"},
+      "round_13" : { "roundName": "Round Thirteen", "roundShortName": "Rnd 13"},
+      "round_14" : { "roundName": "Round Fourteen", "roundShortName": "Rnd 14"},
+      "round_15" : { "roundName": "Round Fifteen", "roundShortName": "Rnd 15"},
+      "round_16" : { "roundName": "Round Sixteen", "roundShortName": "Rnd 16"},
+      "round_17" : { "roundName": "Round Seventeen", "roundShortName": "Rnd 17"},
+      "round_18" : { "roundName": "Round Eighteen", "roundShortName": "Rnd 18"},
+      "round_19" : { "roundName": "Round Ninteen", "roundShortName": "Rnd 19"},
+      "round_20" : { "roundName": "Round Twenty", "roundShortName": "Rnd 20"},
+      "round_21" : { "roundName": "Round Twenty One", "roundShortName": "Rnd 21"},
+      "round_22" : { "roundName": "Round Twenty Two", "roundShortName": "Rnd 22"},
+      "QF" : { "roundName": "Qualifying Final", "roundShortName": "QF"},
+      "EF" : { "roundName": "Elimination Final", "roundShortName": "EF"},
+      "SF" : { "roundName": "Semi Final", "roundShortName": "SF"},
+      "GF" : { "roundName": "Grand Final", "roundShortName": "GF"},
+    },
     competitions: {
-      "pre-season": {"name": "Pre-Season"},
-      "prem": {"name": "Premier"},
-      "u1314": {"name": "U13/14"},
-      "u1517": {"name": "U15/17"},
+      "pre-season": {"name": "PS"},
+      "prem": {"name": "Senior"},
+      "u13": {"name": "U13"},
+      "u14": {"name": "U14"},
+      "u15": {"name": "U15"},
+      "u17": {"name": "U17"},
       "colts": {"name": "Colts"},
       "t20": {"name": "T20"}
     },
@@ -235,5 +347,6 @@ export default {
       state.editMode = !currentEditMode
     }),
     clubs: clubs,
-    compRounds: fixtures
+    compRounds: fixtures,
+    fixtures
   }

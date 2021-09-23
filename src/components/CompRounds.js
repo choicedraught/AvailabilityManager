@@ -40,8 +40,8 @@ const CompRounds = () => {
       // or redirect to logout page
     })
     if (clientSettings.sport === 'cricket') {
-      Auth.currentUserInfo().then((info) => {
-        setUserAttributes(info.attributes);
+      Auth.currentAuthenticatedUser().then((info) => {
+        setUserAttributes(info);
       })
       .catch((err) => {
         console.log(err);
