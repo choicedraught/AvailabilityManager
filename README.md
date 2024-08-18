@@ -9,3 +9,5 @@ The Web App includes Role Based access based on Cognito Groups that allows both 
 The original version was HTML, js, css, PHP with a backend based on Google Sheets.  It was slow but it worked.  Downside was that the PHP required a IaaS VM to run and this made ongoing costs greater than the $0 budget.
 
 The second version was also IaaS based with PHP and a PostgreSQL backend.  Certainly much quicker but still costly to run.
+
+Version 3 in this reposity was the most successful and cheapest to run.  It was used for 3 seasons and retired prior to the 2023-24 season.
