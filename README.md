@@ -1,7 +1,7 @@
 # AvailabilityManager
 The AvailabilityManager started out as a request from my Cricket Club for a way to collect and visualise which matches each player could play and not play.  Following a subsequent request from a friends Soccer Club, I made the code more generic such that it could be applied to Fixture models of a different shape.
 
-It is designed to be Serverless and is based on AWS Cloudfront, S3, API Gateway, DynamoDB and Cognito.
+It is designed to be Serverless and is a React frontend with a backend based on AWS Cloudfront, S3, API Gateway, DynamoDB and Cognito.
 
 The Web App includes Role Based access based on Cognito Groups that allows both a player to login and post / update their availability and a Coach to login and view the availability for the entire squad.
 
